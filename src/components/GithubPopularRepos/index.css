@@ -1,0 +1,49 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.popular-repos-container {
+  width: 90%;
+  max-width: 1110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.popular-heading {
+  color: #0f172a;
+  font-family: Lobster;
+  font-size: 28px;
+}
+
+.languageFiltersData-lists {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.popular-repos-lists {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure-view-img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.failure-view-text {
+  color: #1e293b;
+  font-family: Bree serif;
+  text-align: center;
+}

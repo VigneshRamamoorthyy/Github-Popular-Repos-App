@@ -1,0 +1,18 @@
+.language-button {
+  background-color: transparent;
+  color: #0f172a;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 10px;
+  margin-right: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.active-language {
+  border: #0284c7 2px solid;
+  color: #0284c7;
+}
